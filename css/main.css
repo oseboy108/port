@@ -1,84 +1,78 @@
 .body{
-  font-size: 11px;
-}
-
-.had{
-  background-color: #d8d2ba;
-  border-radius: 20px
+  font-family: 'Raleway', sans-serif;
+  background-image: url(../images/reed.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: #dcdfe2;
 }
 
 .jiji{
-  margin-top: 40px;
-  padding-right: 50px;
-  display: inline  block;
-  }
+  font-weight: 600;
+}
 
-  .yub{
-    margin-top: ;
-  }
 
-  .nim{
-    background-color:#C9C38D;
-    margin-top: 30px;
-  }
+.hero-content{
+  margin-top: 6rem;
+}
+
+.yung{
+  width: 450px;
+  margin-top: 230px;
+}
+
+.service{
+  border-radius: 2rem;
+}
+
+.nun{
+  background-image: url(../images/kot.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.service h3{
+  font-weight: 700;
+}
+
+.services-icon{
+  font-size: 2rem;
+}
+
+.hero-content h1{
+  font-weight: 900;
+}
+
+.hero-content h3{
+  font-weight: 500;
+}
+
+.social-icons div{
+  border: 1px  #2C363F;
+  border-radius: 50%;
+  background-color:#006305;
+  color: rgb(255, 213, 213);
+}
+
+.section-heading{
+  font-weight: 700;
+  font-size: 3rem;
+  margin-top: 180px;
+}
+
+.service-body{
   
+}
 
-  
+.btn-main{
+  background-color: #1d334d !important;
+  color: #ffffff;
+  font-size: 1.3rem;
 
-  .tun{
-    margin-right: 100px;
-  }
+}
 
-  .vins{
-   position: absolute;
-   left: %;right: 17%;
-   top: %;bottom: 35%;
-   z-index: 500;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 45px;
-   flex-direction: column;
-   font-weight: 600;
-   color:#4E464C ;
-  }
-
-  .tig{
-    border: 2px solid;
-    border-color: #d8995e;
-    margin-bottom:
-  }
-
-  .subtitle{
-    position: absolute;
-    left: %;right: 35%;
-    top: %;bottom: 25%;
-    z-index: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    flex-direction: column;
-    font-weight: ;
-    color:#6E2C13 ;
-    display: flex;
-   }
-
-   .dran{
-     background-color: #835d39;
-   }
-
-   .hug{
-     border-radius: px;
-   }
-
-   .nb{
-     margin-top: 0px;
-   }
-
-   .mij{
-     margin-left: px;
-   }
+.bee{
+  margin-top: 20px;
+}
  
 
  
