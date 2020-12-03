@@ -1,6 +1,6 @@
 .body{
   font-family: 'Raleway', sans-serif;
-  background-image: url(../images/reed.svg);
+  background-image: url(../images/jun.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-color: #dcdfe2;
@@ -20,15 +20,28 @@
   margin-top: 230px;
 }
 
+.contact{
+  background-image: url(../images/pimp.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin-bottom: 300px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 1rem 0.4rem;
+  font-size: 1.3rem;
+  width: 100%;
+}
+
+
+
+
 .service{
   border-radius: 2rem;
 }
 
-.nun{
-  background-image: url(../images/kot.svg);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}
+
 
 .service h3{
   font-weight: 700;
@@ -71,8 +84,67 @@
 }
 
 .bee{
-  margin-top: 20px;
+  margin-top: 50px;
 }
+
+@media only screen and (max-width: 480px){
+  .hero-content h1{
+    font-weight: 900;
+    font-size: 1rem;
+  }
+  .hero-content h3{
+    font-weight: 100;
+    font-size: 0.7rem;
+  }
+  .hero-content p{
+    font-weight: 100;
+    font-size: 0.7rem;
+  }
+  .social-icons div{
+    font-size: 0.7rem;
+  }
+  .hero{
+    margin-top: px;
+  }
+  .yung{
+  width: 300px;
+  margin-top: 150px;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 1198px){
+ .section-heading{
+   font-size:  ;
+ }
+ .about p{
+  font-size: 0.8rem ;
+}
+.yung{
+  width: 350px;
+}
+}
+
+@media only screen and (max-width: 1024px){
+  .section-heading{
+    font-size:  ;
+  }
+  .about p{
+   font-size: 0.7rem ;
+ }
+ .yung{
+   width: 250px;
+ }
+ }
+
+
+ @media only screen and (max-width: 1774px){
+  .contact{
+    width: 100%;
+  }
+ }
  
 
  
