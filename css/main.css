@@ -3,11 +3,15 @@
   background-image: url(../images/jun.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
-  background-color: #f5f9fd;
+  background-color: #ffffff;
 }
 
 .jiji{
   font-weight: 600;
+}
+
+.uin{
+  margin-top: 120px;
 }
 
 
@@ -24,7 +28,6 @@
   background-image: url(../images/pimp.svg);
   background-repeat: no-repeat;
   background-size: 100% auto;
-  margin-bottom: 300px;
 }
 
 .contact input,
@@ -110,9 +113,8 @@
   width: 300px;
   margin-top: 150px;
   }
+  
 
-
-}
 
 
 @media only screen and (max-width: 1198px){
@@ -144,6 +146,28 @@
   .contact{
     width: 100%;
   }
+ }
+
+ @media only screen and (max-width: 768px){
+ .section-heading{
+   font-size: 1rem;
+ }
+ .jink{
+   font-size: 0.6rem;
+ }
+ .service-body h3{
+   font-size: 1rem;
+ }
+ .service-body p{
+  font-size: 0.6rem;
+}
+.form-label{
+  font-size: 0.6rem;
+}
+.form-control{
+margin-bottom: -20px;
+}
+
  }
  
 
