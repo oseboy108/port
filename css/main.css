@@ -1,174 +1,43 @@
 .body{
-  font-family: 'Raleway', sans-serif;
-  background-image: url(../images/jun.png);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-color: #ffffff;
+  font-family: sans-serif;
+  background-color: #012e36;
 }
 
-.jiji{
+.gin{
+  margin-top: 40px;
+}
+
+.rich{
   font-weight: 600;
 }
 
-.uin{
-  margin-top: 120px;
+
+
+.yum{
+  font-weight: 100;
+}
+
+.jik{
+  font-size: 2px;
+}
+
+.yuv{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.hit{
+  font-size: ;
+}
+.hin{
+  margin-bottom: 80px;
+}
+
+.uni{
+  font-size: ;
+  font-weight: 600;
 }
 
 
-.hero-content{
-  margin-top: 6rem;
-}
-
-.yung{
-  width: 450px;
-  margin-top: 230px;
-}
-
-.contact{
-  background-image: url(../images/pimp.svg);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-
-.contact input,
-.contact textarea {
-  padding: 1rem 0.4rem;
-  font-size: 1.3rem;
-  width: 100%;
-}
-
-
-
-
-.service{
-  border-radius: 2rem;
-}
-
-
-
-.service h3{
-  font-weight: 700;
-}
-
-.services-icon{
-  font-size: 2rem;
-}
-
-.hero-content h1{
-  font-weight: 900;
-}
-
-.hero-content h3{
-  font-weight: 500;
-}
-
-.social-icons div{
-  border: 1px  #2C363F;
-  border-radius: 50%;
-  background-color:#006305;
-  color: rgb(248, 237, 237);
-}
-
-.section-heading{
-  font-weight: 700;
-  font-size: 3rem;
-  margin-top: 180px;
-}
-
-.service-body{
-  
-}
-
-.btn-main{
-  background-color: #1d334d !important;
-  color: #ffffff;
-  font-size: 1.3rem;
-
-}
-
-.bee{
-  margin-top: 50px;
-}
-
-@media only screen and (max-width: 480px){
-  .hero-content h1{
-    font-weight: 900;
-    font-size: 1rem;
-  }
-  .hero-content h3{
-    font-weight: 100;
-    font-size: 0.7rem;
-  }
-  .hero-content p{
-    font-weight: 100;
-    font-size: 0.7rem;
-  }
-  .social-icons div{
-    font-size: 0.7rem;
-  }
-  .hero{
-    margin-top: px;
-  }
-  .yung{
-  width: 300px;
-  margin-top: 150px;
-  }
-  
-
-
-
-@media only screen and (max-width: 1198px){
- .section-heading{
-   font-size:  ;
- }
- .about p{
-  font-size: 0.8rem ;
-}
-.yung{
-  width: 350px;
-}
-}
-
-@media only screen and (max-width: 1024px){
-  .section-heading{
-    font-size:  ;
-  }
-  .about p{
-   font-size: 0.7rem ;
- }
- .yung{
-   width: 250px;
- }
- }
-
-
- @media only screen and (max-width: 1774px){
-  .contact{
-    width: 100%;
-  }
- }
-
- @media only screen and (max-width: 768px){
- .section-heading{
-   font-size: 1rem;
- }
- .jink{
-   font-size: 0.6rem;
- }
- .service-body h3{
-   font-size: 1rem;
- }
- .service-body p{
-  font-size: 0.6rem;
-}
-.form-label{
-  font-size: 0.6rem;
-}
-.form-control{
-margin-bottom: -20px;
-}
-
- }
  
 
  
