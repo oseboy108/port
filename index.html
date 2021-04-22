@@ -1,85 +1,120 @@
 <!doctype html>
       <html lang="en">
         <head>
-         <title>Weight Converter</title>
+         <title>basic javascript project</title>
           <!-- Required meta tags -->
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       
           <!-- Bootstrap CSS -->
-          <link rel="stylesheet" href="css/main.css">
+          <link rel="stylesheet" href="main.css">
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
           <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
           <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
         </head>
-<body class="body">
-  
-  <div class="container gin">
-  <div class="row">
-    <div class="col-md-12">
-      <h1 class="text-center yum text-light yuv mt-3">Weight Converter</h1>
-    </div>
-  </div>
-  </div>
+<body class='body'>
 
   <div class="container">
-    <div class="form">
-    <div class="form-group hin">
-      <input
-       id="GramsInput"
-       type="number"
-       class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Enter grams....">
-    </form>
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h5 class="text-center hexColor">Quotes by famous people</h5>
+      <button class="btn" id="quoteBtn">Press to display a quote</button>
+      <blockquote>
+        <h6 id="quote">quote</h6>
+      </blockquote>
+      <blockquote id="quoteAuthor">
+        <h6 id="quoteAuthor">author of the quote</h6>
+      </blockquote>
+    
     </div>
-    </div>
+  </div>
+  
+  
+ 
+  
+  
 
-          
-    <div id="output">
-    <div class="card text-white bg-primary mb-2" style="">
-    <div class="card-body rich">Pounds:</div>
-    <div class="container">
-    <div id="IbsOutput"></div>
-      </div>
-    </div>
-    
-    
+  
 
-    
-      <div class="card text-white bg-success mb-2" style="">
-      <div class="card-body rich">Kilograms:</div>
-      <div class="container">
-      <div id="kgOutput"></div>
-        </div>
-      </div>
-    
 
-      
-        <div class="card text-white bg-danger mb-2" style="">
-        <div class="card-body rich">Ounces:</div>
-        <div class="container">
-        <div id="ozOutput"></div>
-          </div>
-        </div>
-      </div>
-    
-        
-
-        <script>
-          document.getElementById('output').style.visibility = 'hidden';
-          document.getElementById('GramsInput').addEventListener('input', function(e){
-            document.getElementById('output').style.visibility = 'visible';
-            let Grams = e.target.value;
-            document.getElementById('IbsOutput').innerHTML = Grams*0.0022;
-            document.getElementById('kgOutput').innerHTML = Grams/1000;
-            document.getElementById('ozOutput').innerHTML = Grams*0.03527396195;
-          });
-        </script>
 
 
   
  
-     
+<script>
+
+//const colorBtn = document.querySelector( '.colorBtn' );
+//const bodyBcg = document.querySelector( 'body' );
+
+//const colors = [ 'yellow', 'red', 'green', '#3b5998' ];
+
+//colorBtn.addEventListener( 'click', changeColor);
+
+//function changeColor ( ){
+  //  bodyBcg.style.backgroundColor = colors[2];
+  //let random = Math.floor(Math.random( )*colors.length)
+  // bodyBcg.style.backgroundColor = colors[random]
+//}
+
+//const hexNumbers = [0,1,2,3,4,5,6,7,8,9, 'A', 'B', 'C', 'D', 'E', 'F'];
+//const hexBtn = document.querySelector( '.hexBtn' );
+//const bodyBcg = document.querySelector( 'body' );
+//const hex = document.querySelector( '.hex' );
+
+
+//hexBtn.addEventListener( 'click',getHex );
+
+//function getHex ( ){
+//let hexCol = '#';
+
+//for(let i = 0;  i<6;i++){
+ // let random = Math.floor(Math.random( )*hexNumbers.length);
+  //console.log(random);
+  //hexCol +=hexNumbers[random];
+  //console.log(hexCol);
+//}
+//bodyBcg.style.backgroundColor = hexCol;
+//hex.innerHTML = hexCol;
+//}
+
+
+const quotes = [
+  {
+    name: 'john kennedy',
+    quote: 'Those who dare to fail miserably can achieve greatly.'
+  },
+  {
+    name: 'Stephen king',
+    quote: 'Get busy living, or get busy trying.'
+  },
+  {
+    name: 'Abraham lincoln',
+    quote: 'whatever success today i had is because i had a friend who believe .'
+  },
+  {
+    name: 'Leo Tolstoy',
+    quote: 'If you want to be happy, be.'
+  }
+]
+
+const quoteBtn = document.querySelector( '#quoteBtn' );
+const quoteAuthor = document.querySelector( '#quoteAuthor' );
+const quote = document.querySelector ('#quote' );
+
+quoteBtn.addEventListener( 'click', displayQuote);
+
+function displayQuote ( ){
+
+  let number = Math.floor(Math.random( )*quotes.length);
+  quoteAuthor.innerHTML = quotes[number].name;
+  quote.innerHTML = quotes[number].quote;
+}
+
+
+
+
+</script>
       
           <!-- Optional JavaScript -->
           <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -95,6 +130,8 @@
     <link rel="stylesheet" href="custom.css">
     <script src="js/jquery.js"></script>
     <sript src="js/bootstrap.js"></sript>
+    <sript src="js/script.js"></sript>
+
   </body> 
       </html>
       
