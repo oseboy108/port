@@ -1,137 +1,441 @@
-<!doctype html>
-      <html lang="en">
-        <head>
-         <title>basic javascript project</title>
-          <!-- Required meta tags -->
-          <meta charset="utf-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      
-          <!-- Bootstrap CSS -->
-          <link rel="stylesheet" href="main.css">
-          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-          <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
-          <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-
-        </head>
-<body class='body'>
-
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-12 text-center">
-      <h5 class="text-center hexColor">Quotes by famous people</h5>
-      <button class="btn" id="quoteBtn">Press to display a quote</button>
-      <blockquote>
-        <h6 id="quote">quote</h6>
-      </blockquote>
-      <blockquote id="quoteAuthor">
-        <h6 id="quoteAuthor">author of the quote</h6>
-      </blockquote>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  
     
+    <!-- Bootstrap CSS -->
+   
+   
+  
+  
+  
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper.js -->
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-t6I8D5dJmMXjCsRLhSzCltuhNZg6P10kE0m0nAncLUjH6GeYLhRU1zfLoW3QNQDF" crossorigin="anonymous"></script>
+    -
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+    ->
+
+    
+    <link href="js/scripts.js>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+
+</head>
+<body class="body">
+
+
+
+
+
+
+
+
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#home">FE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+       
+        
+        <section class="site-banner" id="home">
+            <div class="container">
+            <div class="row">
+      <div class="col-lg-6 col-md-12  col-sm-24 site-title">
+        <div class="hero-content  pl-0 pr-5">
+        <h3 class="title-text">Hello</h3>
+        <h1 class="title-text text-uppercase uin">i am francis Ehis</h1>
+          <h4 class="title-text text-uppercase hin">i am a Frontend Developer & UI/UX designer</h4>
+          <div class="site-buttons">
+            <div class="d-flex flex-row flex-wrap">
+            </div>
+          </div>
+        </div>
+      </div>
+           <div class="col-lg-6 col-md-12">
+            <img src="/components/images/francis1.jpg" alt="" class="img-fluid3"/>
     </div>
   </div>
-  
-  
- 
-  
-  
-
-  
+  </div>
+  </section>
 
 
 
 
-  
- 
-<script>
+<br></br>
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Services Offers</h2>
+                    <h3 class="section-subheading text-muted">I do more than just creating beautiful website; I create applications and website that brings customers to your business</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4 frank">
+                    <img src="/components/images/computer.svg" alt="" class="ike"/>
+                        <h4 class="my-3">Web development</h4>
+                        <p class="text-muted">designing web interface for clients across the globe and platforms made with easy navigation</p>
+                    </div>
+                    <div class="col-md-4 frank">
+                    <img src="/components/images/design.svg"alt="" class="ike"/>
+                        <h4 class="my-3">UI/UX Design</h4>
+                        <p class="text-muted">I design mobile and web interfaces and prototypes made with easy and flexible components</p>
+                    </div>
+                    <div class="col-md-4 frank">
+                    <img src="/components/images/webpack.svg" alt="" class="ike"/>
+                        <h4 class="my-3">Website Design</h4>
+                        <p class="text-muted">I design your website to be as easy to use as
+                                possible while converting traffic into paying
+                                customers.</p>
+                    </div>
+                </div>
+            
 
-//const colorBtn = document.querySelector( '.colorBtn' );
-//const bodyBcg = document.querySelector( 'body' );
-
-//const colors = [ 'yellow', 'red', 'green', '#3b5998' ];
-
-//colorBtn.addEventListener( 'click', changeColor);
-
-//function changeColor ( ){
-  //  bodyBcg.style.backgroundColor = colors[2];
-  //let random = Math.floor(Math.random( )*colors.length)
-  // bodyBcg.style.backgroundColor = colors[random]
-//}
-
-//const hexNumbers = [0,1,2,3,4,5,6,7,8,9, 'A', 'B', 'C', 'D', 'E', 'F'];
-//const hexBtn = document.querySelector( '.hexBtn' );
-//const bodyBcg = document.querySelector( 'body' );
-//const hex = document.querySelector( '.hex' );
-
-
-//hexBtn.addEventListener( 'click',getHex );
-
-//function getHex ( ){
-//let hexCol = '#';
-
-//for(let i = 0;  i<6;i++){
- // let random = Math.floor(Math.random( )*hexNumbers.length);
-  //console.log(random);
-  //hexCol +=hexNumbers[random];
-  //console.log(hexCol);
-//}
-//bodyBcg.style.backgroundColor = hexCol;
-//hex.innerHTML = hexCol;
-//}
-
-
-const quotes = [
-  {
-    name: 'john kennedy',
-    quote: 'Those who dare to fail miserably can achieve greatly.'
-  },
-  {
-    name: 'Stephen king',
-    quote: 'Get busy living, or get busy trying.'
-  },
-  {
-    name: 'Abraham lincoln',
-    quote: 'whatever success today i had is because i had a friend who believe .'
-  },
-  {
-    name: 'Leo Tolstoy',
-    quote: 'If you want to be happy, be.'
-  }
-]
-
-const quoteBtn = document.querySelector( '#quoteBtn' );
-const quoteAuthor = document.querySelector( '#quoteAuthor' );
-const quote = document.querySelector ('#quote' );
-
-quoteBtn.addEventListener( 'click', displayQuote);
-
-function displayQuote ( ){
-
-  let number = Math.floor(Math.random( )*quotes.length);
-  quoteAuthor.innerHTML = quotes[number].name;
-  quote.innerHTML = quotes[number].quote;
-}
-
-
-
-
-</script>
-      
-          <!-- Optional JavaScript -->
-          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+            <div class="row text-center">
+                    <div class="col-md-4 frank">
+                    <img src={settings} alt="" class="ike"/>
+                        <h4 class="my-3">Business Strategy</h4>
+                        <p class="text-muted"> We discuss what you are trying to achieve, and
+                                create a website that aligns with your goals.</p>
+                    </div>
+                    <div class="col-md-4 frank">
+                    <img src={network} alt="" class="ike"/>
+                        <h4 class="my-3">Social media</h4>
+                        <p class="text-muted">I create content for your business on social
+                                media so you don't have to pay for any ads to
+                                gain traffic.</p>
+                    </div>
+                    <div class="col-md-4 frank">
+                    <img src={search} alt="" class="ike"/>
+                        <h4 class="my-3">Seo optimize</h4>
+                        <p class="text-muted">I optimize your entire website to make it easier
+                                for your customers to find you, not the
+                                opposite.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
         
-      
+       
+        <section class="page-section" id="about"></section>
+  <div class="container">
+  <h2 class="section-heading text-uppercase text-center pt-5">About Me</h2>
+     <div class="row">
      
-  
-    
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="custom.css">
-    <script src="js/jquery.js"></script>
-    <sript src="js/bootstrap.js"></sript>
-    <sript src="js/script.js"></sript>
-
-  </body> 
-      </html>
+      <div class="col-lg-6 col-md-12 pt-5">
       
+        <div class="about-image">
+        <img src="/components/images/tech.jpg" alt="about us" class="img-fluid3"/>
+          </div>
+      </div>
+        <div class="col-lg-6 col-md-12 about-title pt-5">
+          <h2 class="text-uppercase pt-5">
+            <span>Let me</span>
+            <span>introduce</span>
+            <span>myself</span>
+          </h2>
+          <div class="paragraph py-4 w-75"></div>
+          <h6 class="para">My name is francis ehis and i am a passionate frontend web developer and mobile designer based in Nigeria, I have a passion for coding and challenging 
+          myself creatively. Using a mimalist asthetic, i create simple to advance responsive websites with a whimsical twist 
+          using web technologies to build amazing products and focusing on solving problems using the power of technology</h6>
+            <h6 class="para">
+              I enjoy learning new skills daily, and staying connected, and involved with my fellow developers. 
+            </h6>
+        </div>
+       </div>
+  </div><br></br><br></br>
+
+  <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">MY PROJECTS</h2>
+                <h3 class="section-subheading text-muted">I do more than just creating beautiful website; I create applications and website that brings customers to your busines</h3>
+            </div>
+            <div class="row">
+                                <div class="col-lg-4 col-sm-6 mb-4">
+                                    <div class="portfolio-item">
+                                        
+                                            <img class="img-fluid" src="/components/images/josh.jpg" alt="..." />
+                                        
+                                        <div class="portfolio-caption">
+                                            <div class="portfolio-caption-heading">Flooring Installation</div><br></br>
+                                            <a href="https://ezefloorex.netlify.app"><button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Click to Open</button></a>
+                                            </div>
+                                            </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-sm-6 mb-4">
+                                    <div class="portfolio-item">
+                                        
+                                            <img class="img-fluid" src="/components/images/teko.jpg" alt="..." />
+                                        
+                                        <div class="portfolio-caption">
+                                            <div class="portfolio-caption-heading">Teko Services</div><br></br>
+                                            <a href="https://tekoservices.netlify.app"><button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Click to Open</button></a>
+                                            </div>
+                                            </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-sm-6 mb-4">
+                                    <div class="portfolio-item">
+                                       
+                                            <img class="img-fluid" src="/components/images/converter2.PNG" alt="..." />
+                                        
+                                        <div class="portfolio-caption">
+                                            <div class="portfolio-caption-heading">Weight converter</div><br></br>
+                                            <a href="https://oseboy108.github.io/converter-app/"><button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Click to Open</button></a>
+                                            
+                                            </div>
+                                            </div>
+                                            </div>
+                                            
+
+            </div>
+            </div>
+            </section>
+                
+
+
+
+
+
+
+<br></br>
+       <section class="about-area" id="testimonials">
+           <div class="container">
+               <div class="row text-center">
+                   <div class="col-lg-12">
+                       <div class="about-title">
+                           <h1 class="text-uppercase title-h1 mb-5">Testimonials</h1>
+                       </div>
+                       </div>
+                <div class="text-center">
+                    
+                <div class="row text-center">
+                    <div class="col-md-4 frank">
+                    <img src="/components/images/igho.jpg" alt="" class="ike1"/>
+                        <h4 class="my-3">Joseph igho</h4>
+                        <p class="text-muted">Nice work from francis, he delivers on time with a great style of working</p>
+                    </div>
+                    <div class="col-md-4 frank">
+                    <img src="/components/images/vinc.jpg" alt="" class="ike1"/>
+                        <h4 class="my-3">Vincent Elejie</h4>
+                        <p class="text-muted">good impression he made of our first time working together, a good team and working individual</p>
+                    </div>
+                    <div class="col-md-4 frank">
+                    <img src="/components/images/eve.jpg" alt="" class="ike1"/>
+                        <h4 class="my-3">Evelyn izibili</h4>
+                        <p class="text-muted">imaginative worker, he works well with good designing style and good approach with team management</p>
+                    </div>
+                       </div>
+                       </div>
+                       </div>
+                       </div>
+                       </section>
+                   
+          
+
+
+        
+
+        
+       
+        <section class="page-section " id="skills">
+            <div class="container"> 
+            <div class="text-center">
+                    <h2 class="section-heading text-uppercase mb-5">My skills</h2>
+                    </div>
+                <div class="row">
+                    
+                    <div class="col-lg-6">
+                    <div class="text-center">
+                    <h4 class="section-heading text-uppercase mb-5">Web development</h4>
+                </div>
+                        <div class="skill mb-4">
+                            <div class="justify-content-between text-center">
+                            <h6 class="font-width-bold ">HTML</h6>
+                            
+                    
+                        
+                    </div>
+                    </div>
+                     <div class="skill mb-4">
+                            <div class=" justify-content-between text-center">
+                            <h6 class="font-width-bold">CSS/SASS</h6>
+                            
+                    </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                            <div class=" justify-content-between text-center">
+                            <h6 class="font-width-bold">BOOSTRAP</h6>
+                            
+                    </div>
+                    </div>
+                
+
+                    <div class="skill mb-4">
+                            <div class=" justify-content-between text-center">
+                            <h6 class="font-width-bold">JAVASCRIPT</h6>
+                            
+                    </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                            <div class=" justify-content-between text-center">
+                            <h6 class="font-width-bold">REACT</h6>
+                            
+                    </div>
+                    </div>
+                    </div>
+    
+                    
+                    <div class="col-lg-6">
+                    <div class="text-center">
+                    <h4 class="section-heading text-uppercase mb-5">UI/UX Design</h4>
+                </div>
+                        
+                        
+
+                    <div class="skill mb-4">
+                            <div class=" justify-content-between text-center">
+                            <h6 class="font-width-bold text-uppercase">Adobe XD</h6>
+                           
+                    </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                            <div class=" justify-content-between text-center">
+                            <h6 class="font-width-bold text-uppercase">Figma</h6>
+                          
+                    </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                            <div class=" justify-content-between text-center">
+                            <h6 class="font-width-bold text-uppercase">photoshop</h6>
+                           
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+ </section>
+       
+        
+       
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase mb-5">Contact Me</h2>
+                    <h3 class="section-subheading text-muted">Submit the form below so i can get back to you as soon as posible</h3>
+                </div>
+                <form id="contactForm">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" id="name" type="text" placeholder="Name *" required="required" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email" type="email" placeholder="Email *" required="required" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <input class="form-control" id="phone" type="tel" placeholder="Phone *" required="required" />
+                                <p class="help-block text-danger"></p>
+                            </div><br></br>
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <textarea class="form-control" id="message" placeholder="Message *" required="required"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                       <div class="col-md-6">
+                        <div class="text-left">
+                    <h4 class="section-heading text-uppercase">phone</h4><br></br>
+                    <p class="text-light">Mobile1: (+234) 9029745861</p>
+                    <p class="text-light">Mobile2:(+234) 8023138498</p>
+                    </div><br></br>
+                    <h4 class="section-heading text-uppercase">Email</h4><br></br>
+                    <p class="text-light">ehiaguinaosesojie@gmail.com</p>
+                    </div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div id="success"></div>
+                           <a href="https://mail.google.com/mail/mu/mp/346/#co"><button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button></a>
+                    </div>
+                </form>
+            </div>
+        </section>
+       
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">
+                        Copyright &copy; 2021 Francis Ehis
+                       
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                    </div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                    <div class="social-links social-media" align="center">
+            <a href="https://twitter.com/oseboy11" class="icons-twitter"><svg viewBox="328 355 335 276" height="30" width="30" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 630, 425
+                      A 195, 195 0 0 1 331, 600 A 142, 142 0 0 0 428, 570 A  70,  70 0 0 1 370, 523
+                      A  70,  70 0 0 0 401, 521 A  70,  70 0 0 1 344, 455
+                      A  70,  70 0 0 0 372, 460 A  70,  70 0 0 1 354, 370
+                      A 195, 195 0 0 0 495, 442 A  67,  67 0 0 1 611, 380
+                      A 117, 117 0 0 0 654, 363 A  65,  65 0 0 1 623, 401A 117, 117 0 0 0 662, 390
+                      A  65,  65 0 0 1 630, 425 Z" fill="#2962FF"></path>
+                </svg>
+            </a>
+
+            <a href="https://github.com/oseboy108" class="icons github"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                </svg>
+            </a>
+
+           
+
+            
+        </div>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+       
+        
+    </body>
+    </html>
