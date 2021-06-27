@@ -87,7 +87,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
-@media (min-width: 1200px) {
+ (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
   }
@@ -584,10 +584,35 @@ progress {
 
 @media (max-width:992px) {
   .img-fluid3 {
-    width:340px;
-    height:340px;
+    width:240px;
+    height:240px;
+  }
+
+  .frank{
+    background-color: white;
+    
+    align-items: center;
+    transition: box-shadow .7s ease;
+    
+  }
+  .title-text {
+    font-size:25px;
+     
+   }
+
+  .about-title {
+    font-size:15px;
+  }
+
+  .para{
+    font-size:15px;
   }
 }
+
+
+
+
+
 
 
 
@@ -2961,9 +2986,10 @@ textarea.form-control-lg {
 
 .frank{
   background-color: white;
-  width: 300px;
-  padding: 50px;
-  margin: 70px;
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:13px;
   align-items: center;
   transition: box-shadow .7s ease;
 }
