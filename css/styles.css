@@ -1,7 +1,6 @@
 @import url(./partials/_variable.css);
 
 @import url(./partials/_global.css);
-@charset "UTF-8";
 /*!
 * Start Bootstrap - Agency v7.0.0 (https://startbootstrap.com/theme/agency)
 * Copyright 2013-2021 Start Bootstrap
@@ -2962,7 +2961,7 @@ textarea.form-control-lg {
 
 .frank{
   background-color: white;
-  width: 300px;
+  width: 400px;
   padding: 50px;
   margin: 20px;
   align-items: center;
