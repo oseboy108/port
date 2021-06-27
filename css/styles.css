@@ -2961,9 +2961,9 @@ textarea.form-control-lg {
 
 .frank{
   background-color: white;
-  width: 400px;
+  width: 300px;
   padding: 50px;
-  margin: 20px;
+  margin: 70px;
   align-items: center;
   transition: box-shadow .7s ease;
 }
